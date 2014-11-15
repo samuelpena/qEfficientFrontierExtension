@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="Efficient Frontier Optimization" Description="Means Variance Optimization" Type="object">
+
+  <Initiate Name="Chart.Text.0.Content" Value="//public.opencpu.org/ocpu/github/samuelpena/qEfficientFrontier/R" />
+  <Initiate Name="Chart.Text.1.Content" Value="0" />
+  <Initiate Name="Chart.Text.2.Content" Value="0.4" />
+  <Initiate Name="Chart.Text.3.Content" Value="0.5" />
+  <Initiate Name="Chart.Text.4.Content" Value="0.005" />
+
+  <Text Label="Web Service" Type="text" TargetName="Web Service" Width="400"/>
+  <Text Label="Short" Type="text" TargetName="short" />
+  <Text Label="Max Allocation" Type="text" TargetName="max_allocation" />
+  <Text Label="Risk Premium Up" Type="text" TargetName="risk_premium_up" />
+  <Text Label="Risk Increment" Type="text" TargetName="risk_increment" />
+  <Text Expression="0" Type="checkbox" Width="50" />
+
+  <Dimension Label="Dimensions" DropTarget="Dimensions" Require="true" Multiple="true"  />
+  <Measurement Multiple="true" />
+
+  <Initiate Name="Caption.Text" Value="Efficient Frontier Optimization" />
+  <Initiate Name="Caption.Font.Italic" Value="1" />
+
+  <Initiate Name="Chart.BgColor.ColorHex" Value="#FFFFE0" />
+  <PropertiesPage Version="11" File="Properties.qvpp" />
+</ExtensionObject>
